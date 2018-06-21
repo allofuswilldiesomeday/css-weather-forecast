@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	transition: all .1s ease-in;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+
+html {
+	background: #3399CC;
+	border: 30px solid #2B81AC;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+	margin: 20px 0 10px;
+	margin-right: 410px;
+}
+
+
+body {
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: white;
+}
+
+main {
+	width: 800px;
+    margin: 0 auto;
+	border: 3px solid white;
+}
+
+ul {
+font-size: 0;
+background: white;
+}
+
+footer {
+	padding: 20px;
+	margin: 10px 50px 50px 95px;
+}
+
+li {
+	list-style: none;
+	padding: 28px;
+	text-align: center;
+	border: 3px solid white;
+	font-size: 24px;
+}
+
+.weather_forecast_body {
+	margin: 0 auto;
+    width: 1024px;
+}
+
+.cities li {
+	display: inline-block;
+}
+
+ul:hover li:not(:hover) {
+	opacity: 0.7;
+}
+
+main ul .cities1_lisbon {
+	width: 50%;
+	background: #3399CC;
+}
+
+main ul .cities1_paris {
+	width: 25%;
+	background: #33CCCC;
+}
+
+main ul .cities1_belgrade {
+	width: 25%;
+	background: #996699;
+}
+
+main ul .cities2_moscow {
+	width: 25%;
+	background: #C24747;
+}
+
+main ul .cities2_tel_aviv {
+	width: 25%;
+	background: #E2674A;
+}
+
+main ul .cities2_cair {
+	width: 25%;
+	background: #FFCC66;
+}
+
+main ul .cities2_new_york {
+	width: 25%;
+	background: #99CC99;
+}
+
+main ul .cities3_new_delhi {
+	width: 25%;
+	background: #669999;
+}
+
+main ul .cities3_san_francisco {
+	width: 50%;
+	background: #CC6699;
+}
+
+main ul .cities3_tokyo {
+	width: 25%;
+	background: #339966;
+}
+
+main ul .cities4_sydney {
+	width: 100%;
+	background: #666699;
+}
